@@ -20,6 +20,7 @@ public class Player {
 	private static Icon empty = new ImageIcon("Empty.png");
 	private static Icon o = new ImageIcon("O.png");
 	private static Icon x = new ImageIcon("x.png");
+	
 
 	/* 9 buttons for the Tic Tac Toe grid */
 	private static JButton button1;
