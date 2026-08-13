@@ -5,7 +5,11 @@ Overview
 
 Tic-Tac-Toe with an Unbeatable AI is a Java-based desktop game built with Java Swing. The project allows a player to compete against an AI opponent through a graphical interface. The AI uses strategic decision-making to evaluate the current board and select moves designed to prevent the player from winning.
 
+
+
+
 Features
+
 Interactive Java Swing graphical interface.
 
 AI opponent with strategic move selection.
@@ -21,6 +25,11 @@ Reset functionality for starting a new game.
 Separate classes for game logic, GUI, AI, and reset functionality.
 
 Background thread for handling AI moves.
+
+
+
+
+
 
 Project Structure
 
