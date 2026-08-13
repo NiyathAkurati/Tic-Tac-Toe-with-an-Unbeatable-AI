@@ -88,10 +88,18 @@ javac *.java
 Run the program:
 
 java Runner
+
 Example Flow
+
 Launch the program through Runner.java.
+
 The Tic-Tac-Toe board appears through the Java Swing interface.
+
 The player selects an available space.
+
 The AI evaluates the board and selects its move.
+
 The game continues until a player wins or the board results in a draw.
+
 Use the reset functionality to start another game.
+
