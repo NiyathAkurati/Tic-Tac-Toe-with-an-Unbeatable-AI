@@ -7,37 +7,62 @@ Tic-Tac-Toe with an Unbeatable AI is a Java-based desktop game built with Java S
 
 Features
 Interactive Java Swing graphical interface.
+
 AI opponent with strategic move selection.
+
 Automatic win and draw detection.
+
 Randomized starting player.
+
 Reset functionality for starting a new game.
+
 3×3 board representation using arrays.
+
 Separate classes for game logic, GUI, AI, and reset functionality.
+
 Background thread for handling AI moves.
+
 Project Structure
 
 Runner.java → Entry point of the program
+
 Player.java → Main GUI and player interaction
+
 PotatoBot2445.java → Contains the AI decision-making logic
+
 Checker.java → Checks for wins, losses, and draws
+
 Reset.java → Handles resetting the game board
+
 threadstheclass.java → Handles the AI's background thread
+
 X.png → X player icon
+
 O.png → O player icon
+
 Empty.png → Empty board-space icon
+
 README.md → Project documentation
+
 
 AI Decision-Making
 
 The AI evaluates the current board and uses a series of strategic checks to determine its next move.
 
+
 The decision-making process includes:
 
+
 Checking for available winning moves.
+
 Identifying forced moves.
+
 Predicting possible opponent moves.
+
 Evaluating board positions such as corners.
+
 Selecting an available move when higher-priority strategies are unavailable.
+
 
 The AI logic is primarily implemented in PotatoBot2445.java.
 
